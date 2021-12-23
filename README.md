@@ -1,16 +1,19 @@
 AA/2021/42614   Properties of HI-detected Coma and field galaxies     (Molnár+, 2022)
-================================================================================
+
+
 The Westerbork Coma Survey
+
     Molnár D.Cs., Serra P., van der Hulst T., Jarrett T.H., Boselli A., Cortese L., 
     Healy J., de Blok E.,Cappellari M.,Hess K.M.,Józsa G.I.G., McDermid R.M.,
     Oosterloo T.A.,Verheijen M.A.W.
-    =ref ?
-================================================================================
+    
+
+```
 Keywords: galaxies: clusters: individual: Coma -
           galaxies: evolution - galaxies: interactions -
           galaxies: ISM - radio lines: galaxies -
           galaxies: fundamental parameters
-
+```
 
 Abstract:
   We present the blind Westerbork Coma Survey probing the HI
@@ -38,20 +41,21 @@ Abstract:
   quenching the galaxy.
 
 File Summary:
---------------------------------------------------------------------------------
- FileName       Lrecl   Records    Explanations
---------------------------------------------------------------------------------
-ReadMe          80        .        this file
-WCS_HIdet.cds   182       40       Coma cluster galaxies with HI-detections
-                                   in the Westerbork Coma Survey
-RefSamp.cds     132      192       Reference sample of field galaxies 
 
+```
+FileName        Lrecl   Records    Explanations
 
---------------------------------------------------------------------------------
-Byte-by-byte Description of file: WCS_HIdet.dat.cds
---------------------------------------------------------------------------------
+ReadMe          80      .           this file
+WCS_HIdet.cds   182     40          Coma cluster galaxies with HI-detections
+                                    in the Westerbork Coma Survey
+RefSamp.cds     132     192         Reference sample of field galaxies 
+```
+
+Byte-by-byte Description of file: WCS_HIdet.cds
+
+```
  Bytes    Format Units         Label     Explanations
---------------------------------------------------------------------------------
+
   1- 22   A22    ---           ID        ID of optical counterpart
  24- 41   F18.14 deg           RA        Right Ascension J2000
  43- 60   F18.15 deg           Dec       Declination J2000
@@ -79,7 +83,7 @@ Byte-by-byte Description of file: WCS_HIdet.dat.cds
 182-182   I1     ---           NewDet    flag to indicate whether the
                                          source is a new HI detection (7)
 
---------------------------------------------------------------------------------
+
 Note (1): calculated with the use of WISE 3.4 and 4.6 micron photometry
 (extracted by T. H. Jarrett), with the method described in Cluver et al
 (2014ApJ...782...90C). For details see Sect. 3.3 of Molnár+ 2022.
@@ -107,13 +111,13 @@ Note (7): previously detected HI sources from Bravo-Alfaro et al
 or Gavazzi (2006A&A...449..929G) 
      0 = has been detected before
      1 = newly detected source
---------------------------------------------------------------------------------
+```
 
 
-Byte-by-byte Description of file: RefSamp.dat.cds
---------------------------------------------------------------------------------
- Bytes    Format Units         Label     Explanations
---------------------------------------------------------------------------------
+Byte-by-byte Description of file: RefSamp.cds
+
+```
+Bytes    Format Units         Label     Explanations
   1-  6   A6     ---           ID        ID from the HRS or VGS (1)
   8- 16   F9.5   deg           RA        Right Ascension J2000
  18- 26   F9.5   deg           Dec       Declination J2000
@@ -127,7 +131,7 @@ Byte-by-byte Description of file: RefSamp.dat.cds
  93-110   F18.15 logMsun       logMHI    HI mass of the galaxy (4)
 112-132   F21.19 logMsun       dlogMHI   HI mass uncertainty of the galaxy
 
---------------------------------------------------------------------------------
+
 Note (1): adopted from Boselli et al (2010PASP..122..261B, HRS) and Kreckel et al
 (2011AJ....141....4K, VGS)
 Note (2): calculated with the use of WISE 3.4 and 4.6 micron photometry
@@ -140,11 +144,10 @@ Note (4): For HRS sources HI masses are from Boselli et al (2014A&A...564A..65B)
 For VGS HI observations are dominantly ALFALFA measurements from 
 Haynes et al (2011AJ....142..170H) and single-dish data from 
 Springob et al (2005ApJS..160..149S).
---------------------------------------------------------------------------------
+```
 
 Acknowledgements: Dániel Cs. Molnár <daniel.molnar@inaf.it>
 
 References:
-================================================================================
      (prepared by author  / pyreadme )
 (End)
